@@ -1,0 +1,542 @@
+@media only screen and (max-width: 992px) {
+
+    .nav {
+        flex-wrap: nowrap;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 0;
+    }
+
+    .nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .carousel-caption {
+        max-width: 40%;
+    }
+
+    .row-cols-md-3>*{
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+
+    .btn-outline-light,
+    .carousel-caption p {
+        display: none;
+    }
+
+    .form_container {
+        width: 80%;
+    }
+
+    .subtitle {
+        width: 80%;
+    }
+
+    .logo_txt {
+        display: none;
+    }
+
+    footer {
+        height: max-content;
+    }
+
+    .footer_content {
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .footer_content div {
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .our_buses_desc_cont {
+        padding-left: 20px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    .col-lg-4 {
+        position: relative;
+        height: 420px;
+    }
+
+    .categories-price-button {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .carousel-caption {
+        max-width: 500px;
+    }
+
+    .categories_container {
+        margin-bottom: 50px;
+    }
+    
+    .row-cols-md-3>*{
+        width: 23%;
+        align-items: center;
+        display: flex;
+    }
+
+    .form_container {
+        width: 850px;
+    }
+
+    .subtitle {
+        width: 50%;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    .footer_content {
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer_content div {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.header-container {
+
+    background-color: #3d3f40;
+}
+
+header {
+    height: 50px;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.header_content {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    max-width: 1480px;
+}
+
+.btn {
+    padding: 5px 20px;
+    
+}
+.btn-warning {
+    padding: 0%;
+}
+.btn-info {
+    padding: 0%;
+    color: white;
+    background-color: #1dbaa59c;
+}
+.btn-danger {
+    padding: 0%;
+}
+.btn-secondary {
+    padding: 0%;
+}
+
+
+
+#logo-container {
+    color: white;
+}
+
+#logo {
+    max-width: 100px;
+    object-fit: contain;
+    height: 50px;
+    
+}
+
+main {
+    max-width: fit-content;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.nav.nav-pills {
+    height: max-content;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: max-content;
+}
+
+.nav-link-first{
+    color:white;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.nav-link {
+    color: rgb(128, 126, 126);
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-active {
+    color: #28a745;
+    text-decoration: none;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.nav-link:hover {
+    color: #fedb04;
+}
+
+.nav-link-first:hover {
+    color: #fedb04;
+}
+
+.slide-image {
+    filter: brightness(50%);
+    width: 100%;
+    height: 450px;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    width: max-content;
+    right: 8%;
+    bottom: 20%;
+    left: inherit;
+    text-align: right;
+}
+
+.carousel-control-prev{
+    width: 10%;
+
+}
+.carousel-control-next {
+    width: 10%;
+}
+
+
+.subtitle {
+    margin: auto;
+    font-size: 15px;
+}
+
+
+.description {
+    text-indent: 3px;
+}
+
+.buttons-container a {
+    margin: 0 5px;
+    width: max-content;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 100%;
+}
+.ticket-btn{
+    width: 49%;
+
+}
+
+.marketing-title-cont {
+    margin: 0px auto;
+    text-align: center;
+    width: 90%;
+}
+
+.marketing-title-cont h3 {
+    text-transform: uppercase;
+    margin-bottom: 0%;
+}
+
+.categories-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.row-cols-md-3>*{
+    width: 23%;
+    align-items: center;
+    display: flex;
+}
+.row{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.recommended-container {
+    position: relative;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.recommended-badge {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    box-shadow: 0 0 15px;
+}
+
+.our_buses_cont {
+    background-image: linear-gradient(to bottom right, #353a40, #353a409c);
+    color: white;
+}
+
+.our_buses_desc_cont {
+    height: max-content;
+    padding-top: 20px;
+}
+
+.our_buses_img_cont {
+    height: 100%;
+    padding: 0;
+}
+
+.our_buses_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.our_buses_txt {
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+.our_buses_btn {
+    font-size: 15px;
+}
+
+.form_container {
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 14px;
+    margin-top: 0%;
+}
+
+.form_txt{
+    color: grey;
+    text-align: center;
+}
+
+.form_txt a{
+    text-decoration: underline;
+}
+
+.aligned-inputs {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.aligned-inputs input {
+    width: 48%;
+}
+
+.textarea_container {
+    margin: 20px 0;
+}
+
+textarea.form-control {
+    min-height: calc(1.5em + 3.75rem + 2px);
+}
+
+form button[type='submit'] {
+    display: block;
+    margin: auto;
+}
+
+
+.box-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.ticket-box-container {
+    display: inline-block;
+}
+
+.ticket-box {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin: 3px;
+    padding: 25px;
+    border: 1.5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.student {
+    border-color: green;
+}
+
+.trainee {
+    border-color: #00adff;
+}
+
+.junior {
+    border-color: orange;
+}
+
+.clarification {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+.tickets-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tickets-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.medimum {
+    width: 48%;
+}
+
+.medimum p {
+    margin: 0;
+}
+
+.form-control {
+    appearance: auto;
+}
+
+.tickets-inputs .form-control {
+    margin: 10px 0;
+}
+
+.medimum .form-control {
+    margin-top: 0;
+}
+
+select {
+    height: 38px;
+}
+
+.total-price-container {
+    height: 50px;
+    background: #b4ccee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.total-price-container p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#price {
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.discount {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.form-buttons {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#inscripcion{
+    background-color: #113143;
+}
+
+footer {
+    background: #113143;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_content {
+    display: inline-flex;
+    font-size: 15px;
+    max-width: 1480px;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+
+
+.footer_content div {
+    width: 100%;
+}
+
+
+
+.footer_content a {
+    color: white;
+    text-decoration: none;
+}
+
